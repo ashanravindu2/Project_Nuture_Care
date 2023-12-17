@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane fx:id="P2" prefHeight="302.0" prefWidth="399.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.Popup.NFCPOPUpFromController">
+   <children>
+      <ImageView fitHeight="271.0" fitWidth="503.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asstes/nfc%20child%20x.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d8f3f5" height="200.0" layoutY="102.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="503.0" />
+      <ImageView fitHeight="175.0" fitWidth="194.0" layoutX="161.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asstes/2359-scanning-nfc-tag.gif" />
+         </image>
+      </ImageView>
+      <Button layoutX="199.0" layoutY="251.0" mnemonicParsing="false" onAction="#btn" prefHeight="38.0" prefWidth="91.0" styleClass="hover" stylesheets="@../../Style/hoverInDashboard.css" text="OK" />
+   </children>
+</AnchorPane>

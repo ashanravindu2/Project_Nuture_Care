@@ -1,0 +1,7 @@
+.user{
+    -fx-background-color: #D9D9D9;
+    -fx-background-radius: 20px;
+}
+.user:hover{
+    -fx-background-color: #FA850A;
+}

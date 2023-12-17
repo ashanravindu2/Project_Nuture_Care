@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="P1" prefHeight="607.0" prefWidth="855.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.BabyDataManagementController">
+   <children>
+      <ImageView fitHeight="607.0" fitWidth="1057.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asstes/new%20Child%20data%20management.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="36.0" layoutY="49.0" mnemonicParsing="false" onAction="#backOnActhion" opacity="0.0" prefHeight="36.0" prefWidth="42.0" />
+      <Button layoutX="675.0" layoutY="129.0" mnemonicParsing="false" opacity="0.0" prefHeight="62.0" prefWidth="74.0" />
+      <TextField layoutX="157.0" layoutY="144.0" prefHeight="26.0" prefWidth="208.0" style="-fx-background-color: #DED6D6;" />
+   </children>
+</AnchorPane>

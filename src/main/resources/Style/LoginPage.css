@@ -1,0 +1,29 @@
+#Lable1{
+    -fx-font-family: Ubuntu;
+}
+#Un{
+    -fx-background-color: #D0CBCB;
+}
+#pW1{
+    -fx-background-color: #D0CBCB;
+}
+#signUp{
+    -fx-background-color: #FFFFFF;
+    -fx-font-family: Ubuntu;
+    -fx-font-weight: bold;
+}
+#signUp:hover{
+    -fx-background-color: #189AD3;
+    -fx-font-family: Ubuntu;
+    -fx-font-size: 19px;
+    -fx-font-weight: bold;
+}
+#b1{
+    -fx-background-color: #D9D9D9;
+}
+#b1:hover{
+    -fx-background-color: #189AD3;
+}
+#back:hover{
+    -fx-background-color: #189AD3;
+}

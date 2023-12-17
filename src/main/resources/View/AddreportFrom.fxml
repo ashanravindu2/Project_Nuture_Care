@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="P1" prefHeight="607.0" prefWidth="855.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.AddreportFromController">
+   <children>
+      <ImageView fitHeight="607.0" fitWidth="1026.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asstes/Child%20Report.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="57.0" layoutY="283.0" prefHeight="35.0" prefWidth="277.0" style="-fx-background-color: #FFFF;" />
+      <TextField layoutX="58.0" layoutY="388.0" prefHeight="35.0" prefWidth="277.0" style="-fx-background-color: #FFFF;" />
+      <TextField layoutX="57.0" layoutY="489.0" prefHeight="35.0" prefWidth="277.0" style="-fx-background-color: #FFFF;" />
+      <TextField layoutX="630.0" layoutY="45.0" prefHeight="35.0" prefWidth="86.0" style="-fx-background-color: #F4EDED;" />
+      <TextField layoutX="630.0" layoutY="83.0" prefHeight="35.0" prefWidth="86.0" style="-fx-background-color: #F4EDED;" />
+      <TextField layoutX="629.0" layoutY="195.0" prefHeight="35.0" prefWidth="86.0" style="-fx-background-color: #F4EDED;" />
+      <TextField layoutX="629.0" layoutY="233.0" prefHeight="35.0" prefWidth="86.0" style="-fx-background-color: #F4EDED;" />
+      <TextField layoutX="630.0" layoutY="342.0" prefHeight="35.0" prefWidth="86.0" style="-fx-background-color: #F4EDED;" />
+      <TextField layoutX="630.0" layoutY="380.0" prefHeight="35.0" prefWidth="86.0" style="-fx-background-color: #F4EDED;" />
+      <TextField layoutX="629.0" layoutY="491.0" prefHeight="35.0" prefWidth="86.0" style="-fx-background-color: #F4EDED;" />
+      <TextField layoutX="629.0" layoutY="529.0" prefHeight="35.0" prefWidth="86.0" style="-fx-background-color: #F4EDED;" />
+      <Button fx:id="back" layoutX="19.0" layoutY="29.0" mnemonicParsing="false" onAction="#back" opacity="0.0" prefHeight="35.0" prefWidth="52.0" text="Button" />
+   </children>
+</AnchorPane>

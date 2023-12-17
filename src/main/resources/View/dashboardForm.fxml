@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.chart.AreaChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="P1" prefHeight="607.0" prefWidth="855.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.DashboardFormController">
+   <children>
+      <AnchorPane layoutX="179.0" prefHeight="614.0" prefWidth="675.0">
+         <children>
+            <ImageView fitHeight="718.0" fitWidth="675.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@asstes/New%20Dashboard.png" />
+               </image>
+            </ImageView>
+            <ProgressBar fx:id="CofHe" layoutX="173.0" layoutY="72.0" prefHeight="10.0" prefWidth="113.0" progress="0.0" />
+            <ProgressBar fx:id="CofH" layoutX="173.0" layoutY="151.0" prefHeight="10.0" prefWidth="113.0" progress="0.0" />
+            <ProgressBar fx:id="CofT" layoutX="173.0" layoutY="231.0" prefHeight="10.0" prefWidth="113.0" progress="0.0" />
+            <ProgressBar fx:id="CofW" layoutX="174.0" layoutY="306.0" prefHeight="10.0" prefWidth="113.0" progress="0.0" />
+            <ProgressBar fx:id="fri" layoutX="476.0" layoutY="478.0" prefHeight="14.0" prefWidth="126.0" progress="0.0" rotate="270.0" />
+            <ProgressBar fx:id="sat" layoutX="509.0" layoutY="478.0" prefHeight="14.0" prefWidth="126.0" progress="0.0" rotate="270.0" />
+            <ProgressBar fx:id="sun" layoutX="542.0" layoutY="478.0" prefHeight="14.0" prefWidth="126.0" progress="0.0" rotate="270.0" />
+            <ProgressBar fx:id="thu" layoutX="443.0" layoutY="480.0" prefHeight="14.0" prefWidth="126.0" progress="0.0" rotate="270.0" />
+            <ProgressBar fx:id="wen" layoutX="408.0" layoutY="479.0" prefHeight="14.0" prefWidth="126.0" progress="0.0" rotate="270.0" />
+            <ProgressBar fx:id="tue" layoutX="373.0" layoutY="479.0" prefHeight="14.0" prefWidth="126.0" progress="0.0" rotate="270.0" />
+            <ProgressBar fx:id="mon" layoutX="334.0" layoutY="479.0" prefHeight="14.0" prefWidth="126.0" progress="0.0" rotate="270.0" />
+            <AreaChart layoutX="-17.0" layoutY="392.0" prefHeight="215.0" prefWidth="350.0">
+              <xAxis>
+                <CategoryAxis side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis side="LEFT" />
+              </yAxis>
+            </AreaChart>
+            <Circle fill="WHITE" layoutX="631.0" layoutY="26.0" radius="28.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Button layoutX="623.0" layoutY="13.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="29.0" styleClass="user" stylesheets="@../Style/user.css">
+               <graphic>
+                  <ImageView fitHeight="12.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@asstes/Use1r.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="614.0" prefWidth="178.0">
+         <children>
+            <ImageView fitHeight="631.0" fitWidth="251.0" layoutX="2.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@asstes/New%20Dashboard2.png" />
+               </image>
+            </ImageView>
+            <JFXButton fx:id="DB" layoutX="20.0" layoutY="118.0" prefHeight="34.0" prefWidth="142.0" styleClass="hover" stylesheets="@../Style/hoverInDashboard.css" text="     Dashboard">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="27.0" fitWidth="21.0" layoutX="36.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@asstes/Control%20Panel.png" />
+               </image>
+            </ImageView>
+            <JFXButton fx:id="reg" layoutX="22.0" layoutY="176.0" onAction="#RegisterbtnOnAction" prefHeight="34.0" prefWidth="142.0" styleClass="hover" stylesheets="@../Style/hoverInDashboard.css" text="Register">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="27.0" fitWidth="21.0" layoutX="34.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@asstes/Add%20User%20Male.png" />
+               </image>
+            </ImageView>
+            <JFXButton fx:id="DB11" layoutX="19.0" layoutY="235.0" onAction="#reportOnAction" prefHeight="34.0" prefWidth="142.0" styleClass="hover" stylesheets="@../Style/hoverInDashboard.css" text="Report">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="27.0" fitWidth="21.0" layoutX="33.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@asstes/Graph%20Report.png" />
+               </image>
+            </ImageView>
+            <JFXButton fx:id="DB111" layoutX="17.0" layoutY="290.0" onAction="#stockOnActhion" prefHeight="34.0" prefWidth="142.0" styleClass="hover" stylesheets="@../Style/hoverInDashboard.css" text="Stock">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="27.0" fitWidth="21.0" layoutX="33.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@asstes/Combo%20Chart.png" />
+               </image>
+            </ImageView>
+            <JFXButton fx:id="upload" layoutX="19.0" layoutY="349.0" onAction="#uploadOnActhion" prefHeight="34.0" prefWidth="142.0" styleClass="hover" stylesheets="@../Style/hoverInDashboard.css" text="Upload">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="27.0" fitWidth="21.0" layoutX="32.0" layoutY="354.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@asstes/Upload%20to%20the%20Cloud.png" />
+               </image>
+            </ImageView>
+            <JFXButton fx:id="DB11111" layoutX="20.0" layoutY="409.0" onAction="#alertOnAction" prefHeight="34.0" prefWidth="142.0" styleClass="hover" stylesheets="@../Style/hoverInDashboard.css" text="Alert">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="27.0" fitWidth="21.0" layoutX="34.0" layoutY="416.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@asstes/Urgent%20Message.png" />
+               </image>
+            </ImageView>
+            <JFXButton fx:id="DB111111" layoutX="18.0" layoutY="472.0" onAction="#userOnAction" prefHeight="34.0" prefWidth="142.0" styleClass="hover" stylesheets="@../Style/hoverInDashboard.css" text="User">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="27.0" fitWidth="21.0" layoutX="34.0" layoutY="478.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@asstes/ser.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="607.0" prefWidth="855.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.LoginPageFormController">
+   <children>
+      <ImageView fitHeight="622.0" fitWidth="853.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asstes/LoginPage.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#5293af" height="7.0" layoutX="581.0" layoutY="137.0" stroke="BLACK" strokeType="INSIDE" width="113.0" />
+      <TextField fx:id="Un" layoutX="525.0" layoutY="211.0" prefHeight="29.0" prefWidth="244.0" promptText="Enter User Name" />
+      <TextField fx:id="pW" layoutX="525.0" layoutY="286.0" prefHeight="30.0" prefWidth="244.0" promptText="Enter Password" />
+      <PasswordField fx:id="pW1" layoutX="525.0" layoutY="288.0" prefHeight="26.0" prefWidth="244.0" />
+      <Circle fx:id="c1" fill="WHITE" layoutX="638.0" layoutY="492.0" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="b1" layoutX="590.0" layoutY="461.0" mnemonicParsing="false" onAction="#btnFaceOnAction" prefHeight="62.0" prefWidth="86.0">
+         <graphic>
+            <ImageView fx:id="FaceLog" fitHeight="52.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@asstes/360_F_408791486_sc9aKN6ATz06tiSYIC4VfwaSX7ErPnP7.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="signUp" layoutX="506.0" layoutY="374.0" mnemonicParsing="false" onAction="#btnOkyOnAction" prefHeight="30.0" prefWidth="263.0" text="Sign In" textFill="#107dac">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="423.0" prefWidth="259.0" style="-fx-background-color: #D9D9D9; -fx-background-radius: 10px;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="423.0" fitWidth="259.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../asstes/Variant2.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="15.0" layoutY="69.0" prefHeight="37.0" prefWidth="227.0" style="-fx-background-color: #FFFF;" />
+      <TextField layoutX="15.0" layoutY="154.0" prefHeight="37.0" prefWidth="227.0" style="-fx-background-color: #FFFF;" />
+      <TextField layoutX="17.0" layoutY="239.0" prefHeight="37.0" prefWidth="227.0" style="-fx-background-color: #FFFF;" />
+      <TextField layoutX="15.0" layoutY="321.0" prefHeight="37.0" prefWidth="227.0" style="-fx-background-color: #FFFF;" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,7 @@
+.hover{
+    -fx-background-color:  #EEE3D6;
+    -fx-background-radius: 10px;
+}
+.hover:hover{
+    -fx-background-color: #FFFF;
+}
